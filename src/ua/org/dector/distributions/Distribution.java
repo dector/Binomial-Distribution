@@ -1,4 +1,4 @@
-package ua.org.dector.distibutions;
+package ua.org.dector.distributions;
 
 /**
  * Probability mass function interface

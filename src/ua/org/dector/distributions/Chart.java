@@ -1,4 +1,4 @@
-package ua.org.dector.distibutions;
+package ua.org.dector.distributions;
 
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;

@@ -1,6 +1,6 @@
-package ua.org.dector.distibutions.binomial;
+package ua.org.dector.distributions.binomial;
 
-import ua.org.dector.distibutions.Distribution;
+import ua.org.dector.distributions.Distribution;
 
 import java.util.Random;
 

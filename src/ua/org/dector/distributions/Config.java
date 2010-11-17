@@ -1,4 +1,4 @@
-package ua.org.dector.distibutions;
+package ua.org.dector.distributions;
 
 /**
  * External configuration file (uses only for test)

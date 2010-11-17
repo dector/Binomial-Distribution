@@ -1,10 +1,10 @@
-package ua.org.dector.distibutions;
+package ua.org.dector.distributions;
 
-import ua.org.dector.distibutions.binomial.Binomial;
+import ua.org.dector.distributions.binomial.Binomial;
 
 import java.io.*;
 
-import static ua.org.dector.distibutions.Config.SELECTION_LENGTH;
+import static ua.org.dector.distributions.Config.SELECTION_LENGTH;
 
 /**
  * @author dector

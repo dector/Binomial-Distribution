@@ -1,4 +1,4 @@
-package ua.org.dector.distibutions.binomial;
+package ua.org.dector.distributions.binomial;
 
 /**
  * @author dector
