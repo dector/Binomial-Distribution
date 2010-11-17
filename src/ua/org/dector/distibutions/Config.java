@@ -1,4 +1,4 @@
-package ty_lab2;
+package ua.org.dector.distibutions;
 
 /**
  * @author dector

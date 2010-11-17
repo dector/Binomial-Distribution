@@ -1,8 +1,10 @@
-package ty_lab2;
+package ua.org.dector.distibutions;
+
+import ua.org.dector.distibutions.binomial.Binomial;
 
 import java.io.*;
-import java.util.Map;
-import static ty_lab2.Config.SELECTION_LENGTH;
+
+import static ua.org.dector.distibutions.Config.SELECTION_LENGTH;
 
 /**
  * @author dector
@@ -52,7 +54,7 @@ public class Lab2Test {
 //        IF P(A<=x<=B)
 //        int left = 18;
 //        int right = n;
-//        System.out.println("P(" + left + "<=x<=" + right + ") = " + binomial.countP(left, right, SELECTION_LENGTH));
+//        System.out.println("P(" + left + "<=x<=" + right + ") = " + binomial.getToucheProbability(left, right, SELECTION_LENGTH));
 
         out.println();
         binomial.printParams();

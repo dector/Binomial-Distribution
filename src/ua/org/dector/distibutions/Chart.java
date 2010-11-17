@@ -1,4 +1,4 @@
-package ty_lab2;
+package ua.org.dector.distibutions;
 
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
@@ -14,8 +14,6 @@ import org.jfree.ui.RefineryUtilities;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.geom.Rectangle2D;
-import java.io.InterruptedIOException;
 
 /**
  * @author dector
