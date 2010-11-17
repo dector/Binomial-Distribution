@@ -10,17 +10,19 @@ import static ua.org.dector.distibutions.Config.SELECTION_LENGTH;
  * @author dector
  * @version 15.11.10 23:21
  */
-public class Lab2Test {
+public class BinomialDemo {
 
     public static void main(String[] args) {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         PrintWriter out = new PrintWriter(new OutputStreamWriter(System.out), true);
 
+        // Init variables
         int n = 0;
         double p = 0;
         boolean correct = false;
         boolean print = false;
 
+        // Secure input
         while (!correct) {
             out.println("Enter number of elements");
             correct = true;
@@ -48,14 +50,11 @@ public class Lab2Test {
             }
         }
 
+        // Initialization of new distriution
         Binomial binomial = new Binomial(n, p);
         int[] binomialSet = binomial.getSimulation(SELECTION_LENGTH);
 
-//        IF P(A<=x<=B)
-//        int left = 18;
-//        int right = n;
-//        System.out.println("P(" + left + "<=x<=" + right + ") = " + binomial.getToucheProbability(left, right, SELECTION_LENGTH));
-
+        // Printing distribution params
         out.println();
         binomial.printParams();
 
@@ -69,9 +68,9 @@ public class Lab2Test {
         }
 
         if (print) {
+            // Print number of each value
             for (int i = 0; i <= n; i++) {
                 out.println(i + " -> " + binomialSet[i]);
-//                out.println(i + "," + binomialSet[i]);
             }
 
             double[] values = new double[SELECTION_LENGTH];

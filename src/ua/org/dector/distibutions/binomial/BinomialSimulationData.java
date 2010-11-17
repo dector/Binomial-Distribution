@@ -5,6 +5,9 @@ package ua.org.dector.distibutions.binomial;
  * @version 17.11.10 3:40
  */
 public class BinomialSimulationData {
+    /**
+     * Array for simulation results
+     */
     int[] result;
 
     /**
@@ -12,7 +15,14 @@ public class BinomialSimulationData {
      */
     double[] pm;
 
+    /**
+     * Number of values
+     */
+    int length;
+
     BinomialSimulationData(int n) {
+        length = n;
+        pm = new double[n+1];
         result = new int[n+1];
     }
 }

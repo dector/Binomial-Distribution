@@ -16,6 +16,8 @@ import javax.swing.*;
 import java.awt.*;
 
 /**
+ * It is only demonstation
+ *
  * @author dector
  * @version 16.11.10 0:37
  */

@@ -1,6 +1,8 @@
 package ua.org.dector.distibutions;
 
 /**
+ * External configuration file (uses only for test)
+ *
  * @author dector
  * @version 01.11.10 23:28
  */
